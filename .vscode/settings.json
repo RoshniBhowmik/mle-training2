@@ -1,0 +1,22 @@
+{
+    "python.pythonPath": "/home/roshni_tiger/miniconda3/bin/python3",
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--line-length=90"
+    ],
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "isort.args": ["--profile", "black"],
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}

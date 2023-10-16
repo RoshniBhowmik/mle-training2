@@ -1,0 +1,12 @@
+{
+    "version": "3.11.4",
+    "configurations": [
+        {
+            "name": "Python: nonstanderdcode.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
